@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/styles.css">
+	<title>Challenge #1</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>    
+<script type="text/javascript" src="https://rawcdn.githack.com/franz1628/validacionKeyCampo/bce0e442ee71a4cf8e5954c27b44bc88ff0a8eeb/validCampoFranz.js">
+    
+</script>
+
+</head>
+<body>
+    
+	<header>
+        <div class="caja">
+            <h2 class="titulo-principal">Challenge #1</h2>
+        </div>
+        
+    </header>
+		<div class="caja2">
+        </div>
+		
+	<main>	
+
+
+		<section class="principal">
+          <!--  <h2 class="titulo-principal">Sobre la Barbería Alura</h2>-->
+          <form >
+            
+            <label for="text1" >Introduzca un texto para Encriptar:</label>
+            <label for="text2" >Texto Encriptado</label><br>
+            <div id="mensaj" class="mensajeuser"> </div>
+            <textarea id="text1" name="text1" placeholder="  Introduzca un texto para Encriptar" rows="10" cols="45" ></textarea>
+            
+            <textarea id="text2" name="text2"  rows="10" cols="35" placeholder="  Acá podras ver tu texto encriptado"></textarea>
+
+           <!-- <input type="button" onclick="getValueInput()" value="Encriptar!" class="enviar">
+            <input type="button" value="" class="enviar2">-->
+           <div class="alinea">
+            <div class="mensajeuser2"><button type="button" id="btnenc" class="enviar" >Encriptar!</button>&nbsp;&nbsp;&nbsp;
+            <button type="button" id="btndes" class="enviar2" >Desencriptar!</button></div>
+          
+            <div class="mensajeuser"><button type="button" id="btncop" class="enviar3" >Copiar</button></div>
+           </div>
+           </form> 
+
+            
+		</section>
+
+		
+		
+		
+
+	</main>	
+
+<script src="script.js"></script>
+    
+</body>
+
+</html>
